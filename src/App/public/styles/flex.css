@@ -15,7 +15,7 @@ html{
 }
 nav.navbar.navbar-expand-lg.navbar-expand-lg.navbar-light.bg-white.text-dark.w-100 {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     height: 50px;
     top: 0;
 }

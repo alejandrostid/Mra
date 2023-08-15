@@ -5,8 +5,7 @@ import logo from "../public/logo.jpeg"
 export const Carrucel = () => {
     return(
       <div className='sep_'>
-          
-        <div> {/*className='logo'*/}
+        <div>
           <div class="triangle-right"></div>
           <div class="triangle-left"></div>
           <div className='logo'>

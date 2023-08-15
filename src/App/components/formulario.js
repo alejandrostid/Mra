@@ -2,6 +2,16 @@ import React from "react";
 
 const Formulario =()=>{
     return(
+        <>
+            <br></br>
+            <center>
+                <h2>
+                    Texto de ejemplo
+                </h2>
+                <p>
+                    Texto de ejemplo Texto de ejemplo Texto de ejemplo Texto de ejemplo
+                </p>
+            </center>
             <div className="inferior">
                 {/* formulario */}
                 <div className="formulario w-100">
@@ -53,6 +63,7 @@ const Formulario =()=>{
                     </form>
                 </div>
             </div>
+        </>
     )
 }
 export default Formulario

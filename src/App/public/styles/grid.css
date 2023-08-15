@@ -1,17 +1,3 @@
-.deslisante{
-    margin-top: 100px;
-    height: auto;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: repeat(20%,3);
-    row-gap: 10%;
-    z-index: 2;
-}
-.deslisante .card{
-    
-    grid-column-start: 2;
-}
-
 .slaider{
     margin-left: 5%;
     margin-right: 5%;
@@ -22,15 +8,18 @@
 }
 .slaider .card{
     margin-top: 0;
-    height: 370px;
+    height: 380px;
 }
 .formulario{
- margin-top: 180px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 30px;
+    margin-bottom: 30px;
  margin-right: 5%;
 }
 .inferior{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(4,1fr);
 }
 .form-row {
     display: grid;
@@ -57,13 +46,15 @@ header{
     text-align: center;
 }
 .background{
+    background-color: #ff000025;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    padding-top: 4%;
-    top: 150%;
+    padding-top: 0%;
+    top: 0%;
+    z-index: 2;
 }
-.background h2{
-    font-size: 50px;
-}
+
 nav{
     position: fixed;
 }
@@ -121,13 +112,13 @@ article{
 .triangle-down {
     position: absolute;
     border-top: 0px solid transparent;
-    border-left: 200px solid rgba(161, 20, 145, 0.202); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+    border-left: 200px solid rgba(20, 161, 114, 0.43); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
     border-bottom: 370px solid transparent;
 }
 .triangle-up {
     position: absolute;
     border-top: 200px solid transparent;
-    border-left: 200px solid rgba(161, 20, 145, 0.202); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+    border-left: 200px solid rgba(255, 155, 5, 0.348); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
     border-bottom: 0px solid transparent;
 }
 .texto{
@@ -138,4 +129,29 @@ article{
 }
 Player{
     position: relative;
+}
+.-custom-card.w-100 {
+    grid-column-start: 2;
+}
+.custom-card{
+    grid-column-start: 2;
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: #ffffff45;
+    color:rgb(255, 255, 255);
+}
+.deslisante{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    row-gap: 5%;
+    z-index: 1;
+    padding-top: 3%;
+}
+.son{
+    position: absolute;
+    visibility: hidden;
 }
