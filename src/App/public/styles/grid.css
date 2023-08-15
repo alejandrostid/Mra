@@ -1,0 +1,141 @@
+.deslisante{
+    margin-top: 100px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: repeat(20%,3);
+    row-gap: 10%;
+    z-index: 2;
+}
+.deslisante .card{
+    
+    grid-column-start: 2;
+}
+
+.slaider{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+}
+.slaider .card{
+    margin-top: 0;
+    height: 370px;
+}
+.formulario{
+ margin-top: 180px;
+ margin-right: 5%;
+}
+.inferior{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sep{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+article{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    text-align: justify;
+}
+header{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.background{
+    position: absolute;
+    padding-top: 4%;
+    top: 150%;
+}
+.background h2{
+    font-size: 50px;
+}
+nav{
+    position: fixed;
+}
+.separar{
+    display: grid;
+    grid-template-columns: 40% 60% ;
+}
+article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #bab8b8;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #484747;
+  }
+.leabel {
+    margin-left: 5%;
+    text-align: justify;
+    margin-top: 1%;
+
+}
+.leabel .linea{
+    margin-left: 0;
+}
+.triangle-down {
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-left: 200px solid rgba(161, 20, 145, 0.202); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+    border-bottom: 370px solid transparent;
+}
+.triangle-up {
+    position: absolute;
+    border-top: 200px solid transparent;
+    border-left: 200px solid rgba(161, 20, 145, 0.202); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+    border-bottom: 0px solid transparent;
+}
+.texto{
+    text-align: justify;
+    padding: 2%;
+    margin: auto;
+    width: 80%;
+}
+Player{
+    position: relative;
+}

@@ -1,0 +1,220 @@
+div#navbarNavAltMarkup {
+    justify-content: space-between;
+    margin-left: 25%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.redes{
+    width: 10%;
+    margin-right: 2%;
+    justify-content: space-around;
+}
+.redes a {
+    margin-left: 10px;
+}
+nav.navbar.navbar-expand-lg.navbar-expand-lg.navbar-light.bg-white.text-dark.w-100 {
+    position: fixed;
+    z-index: 2;
+    height: 50px;
+    top: 0;
+}
+.carousel {
+    margin-top: 40px;
+}
+
+/* carrucel*/
+
+.main-container ul,
+.main-container li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+.main-container li {
+  display: inline;
+}
+
+.main-container img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.main-container {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.main-container div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.container-images h3{
+    color: black;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    font-size: 70px;
+}
+.container-images p{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+}
+.sep_{
+  height: 700px;
+  background-color: darkcyan;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.logo img{
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  left: 0;
+}
+.logo{
+  background-color: #1a8cf70b;
+  height: 94%;
+  padding-top: 15%;
+  position: absolute;
+  left: 80px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.header-space{
+  width: 50%;
+  height: 100%;
+  padding-right: 5%;
+  position:absolute;
+  display: inline-block;
+}
+.logo h3{
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  top: 150;
+}
+.logo p{
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  top: 180;
+}
+.baner{
+  width: 100%;
+  grid-column-start: 2;
+}
+.baner h3{
+  position: absolute;
+  font-size: 50px;
+    top: 68%;
+    left: 52%;
+    color: wheat;
+}
+.baner p{
+  position: absolute;
+  font-size: 25px;
+    top: 75%;
+    left: 52%;
+    color: wheat;
+}
+.triangle-right {
+  position: absolute;
+  border-top: 0px solid transparent;
+  border-left: 700px solid rgba(210, 105, 30, 0.489); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+  border-bottom: 700px solid transparent;
+}
+.triangle-left {
+  position: absolute;
+  border-top: 700px solid transparent;
+  border-left: 800px solid rgba(132, 177, 42, 0.554); /* Ángulo obtuso: ajusta el valor para cambiar la amplitud del ángulo */
+  border-bottom: 0px solid transparent;
+}
+.caveza{
+  color: #ccc;
+  
+}
+.linea{
+  margin: auto;
+  width: 50%;
+  border-bottom: 1px solid red
+}
+.caveza p {
+  font-size: 17px;
+}
+
+.cubit{
+  background-color: red;
+  height: 75%;
+  width: 80%;
+}
+.video-react{
+  margin-top: 4%;
+}
+
+.video-react-control-bar.video-react-control-bar-auto-hide {
+    z-index: -1;
+}
+.container-flude{
+  width:99%;
+}
