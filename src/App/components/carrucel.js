@@ -4,7 +4,7 @@ import uno from "../public/Bogotá,_Nocturna.jpg"
 import logo from "../public/logo.jpeg"
 export const Carrucel = () => {
     return(
-      <div className='sep_'>
+      <div className='sep_' id='carrucel'>
         <div>
           <div class="triangle-right"></div>
           <div class="triangle-left"></div>

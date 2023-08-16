@@ -7,8 +7,12 @@ import Foolter from "../components/foolter";
 import "../public/styles/grid.css"
 import About from "../components/about";
 import Formulario from "../components/formulario";
+import lol from "../components/jsalobruto";
 
 class App extends React.Component{
+    componentDidMount(){
+        lol() 
+    }
     render(){
         return(
             <>

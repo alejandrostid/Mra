@@ -56,7 +56,7 @@ class List extends React.Component{
     render(){
         return(
             <>
-                <div className="leabel">
+                <div className="leabel" id="quienes-somos">
                     <h3>
                         Texto de ejemplo
                     </h3>
@@ -125,7 +125,7 @@ class List extends React.Component{
                 <Player autoPlay muted loop
                     src={video}
                 >
-                <div className="background" id="quienes-somos">
+                <div className="background">
                     <div className="deslisante">
                         {
                             this.informacion.map((e)=>{
